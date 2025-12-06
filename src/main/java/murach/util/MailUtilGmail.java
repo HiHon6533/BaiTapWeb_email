@@ -14,13 +14,13 @@ public class MailUtilGmail {
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.starttls.enable", "true");
-        props.put("mail.smtp.host", "smtp.gmail.com");
-        props.put("mail.smtp.port", "587");
-        props.put("mail.smtp.ssl.trust", "smtp.gmail.com");
+        props.put("mail.smtp.host", "smtp.mailersend.net");
+        props.put("mail.smtp.port", "2525");
+        props.put("mail.smtp.ssl.trust", "smtp.mailersend.net");
         props.put("mail.smtp.ssl.protocols", "TLSv1.2");
 
-        final String username = "hoangnguyen6533@gmail.com";   // Gmail của bạn
-        final String password = "ikkm vwxn euus uafm";    // App Password
+        final String username = "MS_U1OG8g@test-nrw7gymepvng2k8e.mlsender.net";   // Gmail của bạn
+        final String password = "mssp.53PPrF3.pq3enl61p00g2vwr.yVr29FT";    // App Password
 
         Session session = Session.getInstance(props,
                 new Authenticator() {
